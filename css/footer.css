@@ -1,0 +1,59 @@
+
+.foot {
+    /* background-color: #eee; */
+    background-color: white;
+    padding: 10px;
+    border-top: 1.5px solid #2E5551;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .55);
+    flex-direction: column;
+    position: relative;
+    bottom: 0;
+}
+
+.foot ul {
+    margin: 0px;
+    padding: 10px;
+    list-style-type: none; /* Removes bullet points */
+    display: flex;
+    gap: 15px;
+}
+
+.foot ul a {
+    text-decoration: none;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .8em;
+    padding: 5px 10px; /* Gets rid of moving icons when hovering */
+    display: block; /* Makes the anchor tag the same size as the list*/
+    transition: all ease .3s; /* .3 or .4 seconds */
+    border-radius: 5px;
+}
+
+.footer-h1 {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.foot ul a.active {
+    color: #3C6F6A;
+}
+
+.foot ul a:hover {
+    background-color: #3C6F6A;
+    color: white;
+}
+
+.foot p {
+    width: 35%;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.foot h1 {
+    font-size: 1.5em;
+}
+
+#logo-img {
+    width: 12%;
+    padding: 5px 10px;
+}

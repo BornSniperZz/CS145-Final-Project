@@ -1,0 +1,53 @@
+
+#main-header {
+    background-color: white;
+    display: flex; /* Only effects the FIRST CHILD of content. */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1.5px solid #2E5551;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    position: fixed;
+    width: 99%;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+#main-header #header-logo {
+    height: 30px;
+    transition: all ease .3s;
+}
+
+#main-header #header-logo:hover {
+    opacity: 30%;
+}
+
+#main-header ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none; /* Removes bullet points */
+    display: flex;
+    gap: 15px;
+}
+
+#main-header ul a {
+    text-decoration: none; /* Gets rid of underlines */
+    color: #574B44;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .8em;
+    padding: 5px 10px; /* Gets rid of moving icons when hovering */
+    display: block; /* Makes the anchor tag the same size as the list*/
+    transition: all ease .3s; /* .3 or .4 seconds */
+    border-radius: 5px;
+}
+
+#main-header ul a.active {
+    color: #3C6F6A;
+}
+
+#main-header ul a:hover { /* :hover is a Psuedo class */
+    background-color: #3C6F6A;
+    color: white;
+}

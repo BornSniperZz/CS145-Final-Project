@@ -1,0 +1,165 @@
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.row {
+    gap: 20px;  /* Creates room between the columns */
+    padding: 20px 0px;
+}
+
+.column {
+    width: 100%;
+}
+
+.card {
+    padding: 0px 15px;
+    background-color: white;
+}
+
+.btn {
+    padding: 5px 15px;
+    background-color: #3C6F6A;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.flex {
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.txt-sz-30{
+    font-size: 30px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-90{
+    width: 90%;
+}
+
+.w-85{
+    width: 85%;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-66 {
+    width: 66.6666%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-45{
+    width: 45%;
+}
+
+.w-33 {
+    width: 33.3333%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.rounded {
+    border-radius: 4px;
+}
+
+.card-shadow {
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+.text-shadow {
+    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.75);
+}
+
+/* .btn-shadow{
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+} */
+
+.border-1 {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.border-white {
+    border-color: white;
+}
+
+.border-gray {
+    border-color: #888;
+}
+
+.mb-0 {
+    margin-bottom: 0px;
+}
+
+.mt-0 {
+    margin-top: 0px;
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.marg-20{
+    margin: 20px 20px;
+}
+
+.marg-tb-10 {
+    margin: 10px 0px;
+}
+
+.padtop-0 {
+    padding-top: 0px;
+}
+
+.title-text {
+    font-style: italic;
+    color: #454545;
+}

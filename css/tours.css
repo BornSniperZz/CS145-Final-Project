@@ -1,0 +1,44 @@
+.column p {
+    font-size: 1.1rem;
+    padding: 0px 5px;
+}
+
+.tours-hero {
+    background-image: url(../images/tours-hero.jpg);
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 60vh;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.tours-hero-content {
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    gap: 300px;
+}
+
+/* .tours-hero img {
+    width: 100%;
+} */
+
+.tours-hero-text  {
+    font-size: 3.5rem;
+    padding: 1.75%;
+    border-radius: 10px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    color: #eee;
+}
+
+.tours-btn {
+    padding: 5px 15px;
+    background-color: #3C6F6A;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
+}
